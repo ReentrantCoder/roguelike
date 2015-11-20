@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Completed
+namespace Roguelike
 {
 	using System.Collections.Generic;		//Allows us to use Lists. 
 	using UnityEngine.UI;					//Allows us to use UI.
