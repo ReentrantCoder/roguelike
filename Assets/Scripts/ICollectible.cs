@@ -1,0 +1,4 @@
+﻿interface ICollectible
+{
+    Stats Collect();
+}
