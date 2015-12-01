@@ -6,14 +6,12 @@ using UnityEngine.UI;	//Allows us to use UI.
 public class Player : MovingObject
 {
     public float restartLevelDelay = 1f;		//Delay time in seconds to restart level.
-    public int wallDamage = 1;					//How much damage a player does to a wall when chopping it.
     public Text foodText;						//UI Text to display current player food total.
     public AudioClip gameOverSound;				//Audio clip to play when player dies.
 
     private Animator animator;					//Used to store a reference to the Player's animator component.
-    //private int food;							//Used to store player food points total during level.
     private Vector2 touchOrigin = -Vector2.one;	//Used to store location of screen touch origin for mobile controls.
-    private Stats playerStats = new Stats();
+    private Stats playerStats;
     
 
     //Start overrides the Start function of MovingObject
@@ -23,7 +21,7 @@ public class Player : MovingObject
         animator = GetComponent<Animator>();
 
         //Get the current food point total stored in GameManager.instance between levels.
-        playerStats.Turns = GameManager.instance.playerFoodPoints;
+        playerStats = GameManager.instance.PlayerStats;
 
         //Set the foodText to reflect the current player food total.
         foodText.text = "Food: " + playerStats.Turns;
@@ -36,8 +34,8 @@ public class Player : MovingObject
     //This function is called when the behaviour becomes disabled or inactive.
     private void OnDisable()
     {
-        //When Player object is disabled, store the current local food total in the GameManager so it can be re-loaded in next level.
-        GameManager.instance.playerFoodPoints = playerStats.Turns;
+        //When Player object is disabled, store the current local player stats in the GameManager so it can be re-loaded in next level.
+        GameManager.instance.PlayerStats = playerStats;
     }
 
 
@@ -153,7 +151,7 @@ public class Player : MovingObject
         Wall hitWall = component as Wall;
 
         //Call the DamageWall function of the Wall we are hitting.
-        hitWall.Attack(wallDamage);
+        hitWall.Attack(playerStats.Damage);
 
         //Set the attack trigger of the player's animation controller in order to play the player's attack animation.
         animator.SetTrigger("playerChop");
