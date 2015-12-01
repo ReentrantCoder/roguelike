@@ -2,11 +2,12 @@
 using System.Collections;
 
 	//Enemy inherits from MovingObject, our base class for objects that can move, Player also inherits from this.
-public class Enemy : MovingObject
+public class Enemy : MovingObject, IAttackable
 {
     public Stats EnemyStats; 							//The amount of food points to subtract from the player when attacking.
     public AudioClip[] AttackSounds;					//array of audio clips to play when attacking the player.
     public int MoveFrequency;                           //enemy moves once every x moves
+    public int PowerLevel;                              //power level of enemy, used by EnemyFactory
 
     private Animator animator;							//Variable of type Animator to store a reference to the enemy's Animator component.
     private Transform target;							//Transform to attempt to move toward each turn.
@@ -92,5 +93,10 @@ public class Enemy : MovingObject
 
         //Call the RandomizeSfx function of SoundManager passing in the two audio clips to choose randomly between.
         SoundManager.instance.RandomizeSfx(AttackSounds);
+    }
+
+    public void Attack(int damage)
+    {
+
     }
 }
