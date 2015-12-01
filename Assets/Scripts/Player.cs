@@ -13,7 +13,7 @@ public class Player : MovingObject
     private Animator animator;					//Used to store a reference to the Player's animator component.
     //private int food;							//Used to store player food points total during level.
     private Vector2 touchOrigin = -Vector2.one;	//Used to store location of screen touch origin for mobile controls.
-    private Stats playerStats;
+    private Stats playerStats = new Stats();
     
 
     //Start overrides the Start function of MovingObject
@@ -176,13 +176,18 @@ public class Player : MovingObject
         //Check if the tag of the trigger collided with is Food.
         else if (other.tag == "Resource")
         {
+            Debug.Log("hit a resource " + other.name);
             Stats item = other.GetComponent<Resource>().Collect();
-            
+
             //Add pointsPerFood to the players current food total.
             playerStats.Turns += item.Turns;
 
             //Update foodText to represent current total and notify player that they gained points
             foodText.text = "+" + item.Turns + " Food: " + playerStats.Turns;
+        }
+        else
+        {
+            Debug.Log("Hit something else: " + other.name);
         }
     }
 
