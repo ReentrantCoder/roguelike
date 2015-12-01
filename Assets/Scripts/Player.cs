@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;	//Allows us to use UI.
 
 	//Player inherits from MovingObject, our base class for objects that can move, Enemy also inherits from this.
-public class Player : MovingObject
+public class Player : MovingObject, IAttackable
 {
     public float restartLevelDelay = 1f;		//Delay time in seconds to restart level.
     public Text foodText;						//UI Text to display current player food total.
@@ -200,16 +200,19 @@ public class Player : MovingObject
 
     //LoseFood is called when an enemy attacks the player.
     //It takes a parameter loss which specifies how many points to lose.
-    public void LoseFood(int loss)
+    public void Attack(int damage)
     {
         //Set the trigger for the player animator to transition to the playerHit animation.
         animator.SetTrigger("playerHit");
 
+        damage -= playerStats.DamageReduction;
+        damage = Mathf.Max(0, damage);
+
         //Subtract lost food points from the players total.
-        playerStats.Turns -= loss;
+        playerStats.Turns -= damage;
 
         //Update the food display with the new total.
-        foodText.text = "-" + loss + " Food: " + playerStats.Turns;
+        foodText.text = "-" + damage + " Food: " + playerStats.Turns;
 
         //Check to see if game has ended.
         CheckIfGameOver();

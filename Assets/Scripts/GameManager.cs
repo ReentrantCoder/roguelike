@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-	using System.Collections.Generic;		//Allows us to use Lists. 
-	using UnityEngine.UI;					//Allows us to use UI.
+using System.Collections.Generic;		//Allows us to use Lists. 
+using UnityEngine.UI;					//Allows us to use UI.
 
 public class GameManager : MonoBehaviour
 {
