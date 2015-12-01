@@ -4,14 +4,14 @@ using System.Collections;
 	//Enemy inherits from MovingObject, our base class for objects that can move, Player also inherits from this.
 public class Enemy : MovingObject
 {
-    public int playerDamage; 							//The amount of food points to subtract from the player when attacking.
-    public AudioClip attackSound1;						//First of two audio clips to play when attacking the player.
-    public AudioClip attackSound2;						//Second of two audio clips to play when attacking the player.
-
+    public Stats EnemyStats; 							//The amount of food points to subtract from the player when attacking.
+    public AudioClip[] AttackSounds;					//array of audio clips to play when attacking the player.
+    public int MoveFrequency;                           //enemy moves once every x moves
 
     private Animator animator;							//Variable of type Animator to store a reference to the enemy's Animator component.
     private Transform target;							//Transform to attempt to move toward each turn.
-    private bool skipMove;								//Boolean to determine whether or not enemy should skip a turn or move this turn.
+    private int lastMoved;								//Turn number of the last move to determine whether or not enemy should skip a turn or move this turn.
+    private int turnNumber;
 
 
     //Start overrides the virtual Start function of the base class.
@@ -36,25 +36,26 @@ public class Enemy : MovingObject
     //See comments in MovingObject for more on how base AttemptMove function works.
     protected override void AttemptMove<T>(int xDir, int yDir)
     {
-        //Check if skipMove is true, if so set it to false and skip this turn.
-        if (skipMove)
+        //Check if we are allowed to move based on our speed
+        if ((lastMoved + MoveFrequency) > turnNumber)
         {
-            skipMove = false;
             return;
-
         }
 
         //Call the AttemptMove function from MovingObject.
         base.AttemptMove<T>(xDir, yDir);
 
         //Now that Enemy has moved, set skipMove to true to skip next move.
-        skipMove = true;
+        lastMoved = turnNumber;
     }
 
 
     //MoveEnemy is called by the GameManger each turn to tell each Enemy to try to move towards the player.
-    public void MoveEnemy()
+    public void TakeTurn()
     {
+        //increment the turn number
+        turnNumber++;
+
         //Declare variables for X and Y axis move directions, these range from -1 to 1.
         //These values allow us to choose between the cardinal directions: up, down, left and right.
         int xDir = 0;
@@ -84,12 +85,12 @@ public class Enemy : MovingObject
         Player hitPlayer = component as Player;
 
         //Call the LoseFood function of hitPlayer passing it playerDamage, the amount of foodpoints to be subtracted.
-        hitPlayer.Attack(playerDamage);
+        hitPlayer.Attack(EnemyStats.Damage);
 
         //Set the attack trigger of animator to trigger Enemy attack animation.
         animator.SetTrigger("enemyAttack");
 
         //Call the RandomizeSfx function of SoundManager passing in the two audio clips to choose randomly between.
-        SoundManager.instance.RandomizeSfx(attackSound1, attackSound2);
+        SoundManager.instance.RandomizeSfx(AttackSounds);
     }
 }
