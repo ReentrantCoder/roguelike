@@ -1,17 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Resource : MonoBehaviour, ICollectible
+public class Resource : MonoBehaviour
 {
     public Stats ResourceStats;
 
     public AudioClip[] CollectSounds;
-
-    // Use this for initialization
-    void Start()
-    {
-        ResourceStats = new Stats();
-    }
 
     public Stats Collect()
     {
