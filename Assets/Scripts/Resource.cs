@@ -3,17 +3,14 @@ using System.Collections;
 
 public class Resource : MonoBehaviour, ICollectible
 {
-    private Stats stats;
+    public Stats ResourceStats;
 
     public AudioClip[] CollectSounds;
-
-    public int Turns;
 
     // Use this for initialization
     void Start()
     {
-        stats = new Stats();
-        stats.Turns = Turns;
+        ResourceStats = new Stats();
     }
 
     public Stats Collect()
@@ -22,6 +19,6 @@ public class Resource : MonoBehaviour, ICollectible
         SoundManager.instance.RandomizeSfx(CollectSounds);
 
         gameObject.SetActive(false);
-        return stats;
+        return ResourceStats;
     }
 }

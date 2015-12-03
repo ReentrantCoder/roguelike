@@ -3,7 +3,7 @@
 [Serializable]
 public class Stats
 {
-    public int Turns;
+    public int HP;
     public int Damage;
     public int DamageReduction;
 }

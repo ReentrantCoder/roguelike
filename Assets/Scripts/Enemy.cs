@@ -82,7 +82,13 @@ public abstract class Enemy : MovingObject, IAttackable, IComparable
 
     public void Attack(int damage)
     {
+        EnemyStats.HP -= Mathf.Max(0, damage - EnemyStats.DamageReduction);
 
+        //if Turns < 0, kill this enemy
+        if (EnemyStats.HP <= 0)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     /// <summary>

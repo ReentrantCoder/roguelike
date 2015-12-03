@@ -49,8 +49,8 @@ public class GameManager : MonoBehaviour
         boardScript = GetComponent<BoardManager>();
 
         //set up initial player stats
-        PlayerStats.Turns = 100;
-        PlayerStats.Damage = 1;
+        PlayerStats.HP = 100;
+        PlayerStats.Damage = 5;
         PlayerStats.DamageReduction = 0;
 
         //Call the InitGame function to initialize the first level 
@@ -176,11 +176,14 @@ public class GameManager : MonoBehaviour
         //Loop through List of Enemy objects.
         for (int i = 0; i < enemies.Count; i++)
         {
-            //Call the MoveEnemy function of Enemy at index i in the enemies List.
-            enemies[i].TakeTurn();
+            if (enemies[i].isActiveAndEnabled)
+            {
+                //Call the MoveEnemy function of Enemy at index i in the enemies List.
+                enemies[i].TakeTurn();
 
-            //Wait for Enemy's moveTime before moving next Enemy, 
-            yield return new WaitForSeconds(enemies[i].moveTime);
+                //Wait for Enemy's moveTime before moving next Enemy, 
+                yield return new WaitForSeconds(enemies[i].moveTime);
+            }
         }
         //Once Enemies are done moving, set playersTurn to true so player can move.
         playersTurn = true;
