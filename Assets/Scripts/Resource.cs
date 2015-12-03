@@ -1,20 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Resource : MonoBehaviour, ICollectible
+public class Resource : MonoBehaviour
 {
-    private Stats stats;
+    public Stats ResourceStats;
 
     public AudioClip[] CollectSounds;
-
-    public int Turns;
-
-    // Use this for initialization
-    void Start()
-    {
-        stats = new Stats();
-        stats.Turns = Turns;
-    }
 
     public Stats Collect()
     {
@@ -22,6 +13,6 @@ public class Resource : MonoBehaviour, ICollectible
         SoundManager.instance.RandomizeSfx(CollectSounds);
 
         gameObject.SetActive(false);
-        return stats;
+        return ResourceStats;
     }
 }

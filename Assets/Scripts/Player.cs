@@ -24,7 +24,7 @@ public class Player : MovingObject, IAttackable
         playerStats = GameManager.instance.PlayerStats;
 
         //Set the foodText to reflect the current player food total.
-        foodText.text = "Food: " + playerStats.Turns;
+        foodText.text = "Food: " + playerStats.HP;
 
         //Call the Start function of the MovingObject base class.
         base.Start();
@@ -108,7 +108,7 @@ public class Player : MovingObject, IAttackable
         {
             //Call AttemptMove passing in the generic parameter Wall, since that is what Player may interact with if they encounter one (by attacking it)
             //Pass in horizontal and vertical as parameters to specify the direction to move Player in.
-            AttemptMove<Wall>(horizontal, vertical);
+            AttemptMove<IAttackable>(horizontal, vertical);
         }
     }
 
@@ -117,10 +117,10 @@ public class Player : MovingObject, IAttackable
     protected override void AttemptMove<T>(int xDir, int yDir)
     {
         //Every time player moves, subtract from food points total.
-        playerStats.Turns--;
+        playerStats.HP--;
 
         //Update food text display to reflect current score.
-        foodText.text = "Food: " + playerStats.Turns;
+        foodText.text = "Food: " + playerStats.HP;
 
         //Call the AttemptMove method of the base class, passing in the component T (in this case Wall) and x and y direction to move.
         base.AttemptMove<T>(xDir, yDir);
@@ -143,15 +143,16 @@ public class Player : MovingObject, IAttackable
     }
 
 
-    //OnCantMove overrides the abstract function OnCantMove in MovingObject.
-    //It takes a generic parameter T which in the case of Player is a Wall which the player can attack and destroy.
+    /// <summary>
+    /// OnCantMove overrides the abstract function OnCantMove in MovingObject.
+    /// It takes a generic parameter T which in the case of Player is a Wall which the player can attack and destroy.
+    /// </summary>
     protected override void OnCantMove<T>(T component)
     {
-        //Set hitWall to equal the component passed in as a parameter.
-        Wall hitWall = component as Wall;
+        IAttackable hitObject = component as IAttackable;
 
-        //Call the DamageWall function of the Wall we are hitting.
-        hitWall.Attack(playerStats.Damage);
+        //Call the Attack function of the Object we are hitting.
+        hitObject.Attack(playerStats.Damage);
 
         //Set the attack trigger of the player's animation controller in order to play the player's attack animation.
         animator.SetTrigger("playerChop");
@@ -177,11 +178,28 @@ public class Player : MovingObject, IAttackable
             Debug.Log("hit a resource " + other.name);
             Stats item = other.GetComponent<Resource>().Collect();
 
-            //Add pointsPerFood to the players current food total.
-            playerStats.Turns += item.Turns;
+            //Add Food value to the players current food total.
+            playerStats.HP += item.HP;
 
             //Update foodText to represent current total and notify player that they gained points
-            foodText.text = "+" + item.Turns + " Food: " + playerStats.Turns;
+            foodText.text = "+" + item.HP + " Food: " + playerStats.HP;
+
+            //Update Damage value
+            if (playerStats.Damage < item.Damage)
+            {
+                playerStats.Damage = item.Damage;
+            }
+
+            //Update DamageReduction value
+            if (playerStats.DamageReduction < item.DamageReduction)
+            {
+                playerStats.DamageReduction = item.DamageReduction;
+            }
+        }
+        else if (other.tag == "Enemy")
+        {
+            //attack the enemy!
+            other.GetComponent<Enemy>().Attack(playerStats.Damage);
         }
         else
         {
@@ -209,10 +227,10 @@ public class Player : MovingObject, IAttackable
         damage = Mathf.Max(0, damage);
 
         //Subtract lost food points from the players total.
-        playerStats.Turns -= damage;
+        playerStats.HP -= damage;
 
         //Update the food display with the new total.
-        foodText.text = "-" + damage + " Food: " + playerStats.Turns;
+        foodText.text = "-" + damage + " Food: " + playerStats.HP;
 
         //Check to see if game has ended.
         CheckIfGameOver();
@@ -223,7 +241,7 @@ public class Player : MovingObject, IAttackable
     private void CheckIfGameOver()
     {
         //Check if food point total is less than or equal to zero.
-        if (playerStats.Turns <= 0)
+        if (playerStats.HP <= 0)
         {
             //Call the PlaySingle function of SoundManager and pass it the gameOverSound as the audio clip to play.
             SoundManager.instance.PlaySingle(gameOverSound);

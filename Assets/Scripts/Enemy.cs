@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
-	//Enemy inherits from MovingObject, our base class for objects that can move, Player also inherits from this.
-public abstract class Enemy : MovingObject, IAttackable
+/// <summary>
+///Enemy inherits from MovingObject, our base class for objects that can move
+/// </summary>
+public abstract class Enemy : MovingObject, IAttackable, IComparable
 {
     public Stats EnemyStats; 							//The amount of food points to subtract from the player when attacking.
     public AudioClip[] AttackSounds;					//array of audio clips to play when attacking the player.
@@ -51,12 +54,17 @@ public abstract class Enemy : MovingObject, IAttackable
     }
 
 
-    //TakeTurn is called by the GameManger each turn to tell each Enemy to try to move towards the player.
+    /// <summary>
+    /// TakeTurn is called by the GameManger each turn to tell each Enemy to try to move towards the player.
+    /// </summary>
     public abstract void TakeTurn();
 
 
-    //OnCantMove is called if Enemy attempts to move into a space occupied by a Player, it overrides the OnCantMove function of MovingObject 
-    //and takes a generic parameter T which we use to pass in the component we expect to encounter, in this case Player
+    /// <summary>
+    /// OnCantMove is called if Enemy attempts to move into a space occupied by a Player, it overrides the OnCantMove function of MovingObject 
+    /// </summary>
+    /// <typeparam name="T">Type of the component we expect to encounter</typeparam>
+    /// <param name="component">Component we expect to encounter. Usually Player</param>
     protected override void OnCantMove<T>(T component)
     {
         //Declare hitPlayer and set it to equal the encountered component.
@@ -74,6 +82,21 @@ public abstract class Enemy : MovingObject, IAttackable
 
     public void Attack(int damage)
     {
+        EnemyStats.HP -= Mathf.Max(0, damage - EnemyStats.DamageReduction);
 
+        //if Turns < 0, kill this enemy
+        if (EnemyStats.HP <= 0)
+        {
+            gameObject.SetActive(false);
+        }
+    }
+
+    /// <summary>
+    /// Compares to another Enemy by PowerLevel
+    /// </summary>
+    /// <param name="other">Enemy to compare to</param>
+    public int CompareTo(object other)
+    {
+        return PowerLevel - ((Enemy)other).PowerLevel;
     }
 }
