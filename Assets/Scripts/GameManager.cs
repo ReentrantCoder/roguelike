@@ -22,9 +22,9 @@ public class GameManager : MonoBehaviour
     private bool enemiesMoving;								//Boolean to check if enemies are moving.
     private bool doingSetup = true;							//Boolean to check if we're setting up board, prevent Player from moving during setup.
 
-
-
-    //Awake is always called before any Start functions
+    /// <summary>
+    /// Awake is always called before any Start functions. Called by Unity
+    /// </summary>
     void Awake()
     {
         //Check if instance already exists
@@ -57,7 +57,10 @@ public class GameManager : MonoBehaviour
         InitGame();
     }
 
-    //This is called each time a scene is loaded.
+    /// <summary>
+    /// Initializes the game for each level. Called by Unity
+    /// </summary>
+    /// <param name="index"></param>
     void OnLevelWasLoaded(int index)
     {
         //Add one to our level number.
@@ -66,7 +69,9 @@ public class GameManager : MonoBehaviour
         InitGame();
     }
 
-    //Initializes the game for each level.
+    /// <summary>
+    /// Initializes the game for each level.
+    /// </summary>
     void InitGame()
     {
         //While doingSetup is true the player can't move, prevent player from moving while title card is up.
@@ -96,7 +101,9 @@ public class GameManager : MonoBehaviour
     }
 
 
-    //Hides black image used between levels
+    /// <summary>
+    /// Hides black image used between levels
+    /// </summary>
     void HideLevelImage()
     {
         //Disable the levelImage gameObject.
@@ -106,7 +113,9 @@ public class GameManager : MonoBehaviour
         doingSetup = false;
     }
 
-    //Update is called every frame.
+    /// <summary>
+    /// Update is called every frame. Called by Unity
+    /// </summary>
     void Update()
     {
         //Check that playersTurn or enemiesMoving or doingSetup are not currently true.
@@ -119,7 +128,10 @@ public class GameManager : MonoBehaviour
         StartCoroutine(MoveEnemies());
     }
 
-    //Call this to add the passed in Enemy to the List of Enemy objects.
+    /// <summary>
+    /// Adds the Enemy to the List of Enemy objects.
+    /// </summary>
+    /// <param name="script">Enemy to add to the list</param>
     public void AddEnemyToList(Enemy script)
     {
         //Add Enemy to List enemies.
@@ -127,7 +139,9 @@ public class GameManager : MonoBehaviour
     }
 
 
-    //GameOver is called when the player reaches 0 food points
+    /// <summary>
+    /// GameOver is called when the player reaches 0 food points
+    /// </summary>
     public void GameOver()
     {
         //Set levelText to display number of levels passed and game over message
@@ -140,7 +154,10 @@ public class GameManager : MonoBehaviour
         enabled = false;
     }
 
-    //Coroutine to move enemies in sequence.
+    /// <summary>
+    /// Coroutine to move enemies in sequence.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator MoveEnemies()
     {
         //While enemiesMoving is true player is unable to move.

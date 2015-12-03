@@ -36,6 +36,12 @@ public class BoardManager : MonoBehaviour
     private Transform boardHolder;									//A variable to store a reference to the transform of our Board object.
     private List<Vector3> gridPositions = new List<Vector3>();	//A list of possible locations to place tiles.
 
+    private EnemyFactory enemyFactory;
+
+    void Awake()
+    {
+        enemyFactory = GetComponent<EnemyFactory>();
+    }
 
     //Clears our list gridPositions and prepares it to generate a new board.
     void InitialiseList()
