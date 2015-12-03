@@ -5,6 +5,5 @@
 !ProjectSettings/
 !ProjectSettings/**
 !*.md
-!*.txt
 *.log
 !*.pdf
