@@ -30,7 +30,6 @@ public class BoardManager : MonoBehaviour
     public GameObject[] floorTiles;									//Array of floor prefabs.
     public GameObject[] wallTiles;									//Array of wall prefabs.
     public GameObject[] foodTiles;									//Array of food prefabs.
-    public GameObject[] enemyTiles;									//Array of enemy prefabs.
     public GameObject[] outerWallTiles;								//Array of outer tile prefabs.
 
     private Transform boardHolder;									//A variable to store a reference to the transform of our Board object.
@@ -43,7 +42,9 @@ public class BoardManager : MonoBehaviour
         enemyFactory = GetComponent<EnemyFactory>();
     }
 
-    //Clears our list gridPositions and prepares it to generate a new board.
+    /// <summary>
+    /// Clears our list gridPositions and prepares it to generate a new board.
+    /// </summary>
     void InitialiseList()
     {
         //Clear our list gridPositions.
@@ -62,7 +63,9 @@ public class BoardManager : MonoBehaviour
     }
 
 
-    //Sets up the outer walls and floor (background) of the game board.
+    /// <summary>
+    /// Sets up the outer walls and floor (background) of the game board.
+    /// </summary>
     void BoardSetup()
     {
         //Instantiate Board and set boardHolder to its transform.
@@ -92,7 +95,9 @@ public class BoardManager : MonoBehaviour
     }
 
 
-    //RandomPosition returns a random position from our list gridPositions.
+    /// <summary>
+    /// RandomPosition returns a random position from our list gridPositions.
+    /// </summary>
     Vector3 RandomPosition()
     {
         //Declare an integer randomIndex, set it's value to a random number between 0 and the count of items in our List gridPositions.
@@ -112,9 +117,6 @@ public class BoardManager : MonoBehaviour
     /// <summary>
     /// accepts an array of game objects to choose from along with a minimum and maximum range for the number of objects to create.
     /// </summary>
-    /// <param name="tileArray"></param>
-    /// <param name="minimum"></param>
-    /// <param name="maximum"></param>
     void LayoutObjectAtRandom(GameObject[] tileArray, int minimum, int maximum)
     {
         //Choose a random number of objects to instantiate within the minimum and maximum limits
@@ -135,7 +137,10 @@ public class BoardManager : MonoBehaviour
     }
 
 
-    //SetupScene initializes our level and calls the previous functions to lay out the game board
+    /// <summary>
+    /// SetupScene initializes our level and calls the previous functions to lay out the game board and spawn enemies
+    /// </summary>
+    /// <param name="level"></param>
     public void SetupScene(int level)
     {
         //Creates the outer walls and floor.
@@ -150,13 +155,26 @@ public class BoardManager : MonoBehaviour
         //Instantiate a random number of food tiles based on minimum and maximum, at randomized positions.
         LayoutObjectAtRandom(foodTiles, foodCount.minimum, foodCount.maximum);
 
-        //Determine number of enemies based on current level number, based on a logarithmic progression
-        int enemyCount = (int)Mathf.Log(level, 2f);
-
-        //Instantiate a random number of enemies based on minimum and maximum, at randomized positions.
-        LayoutObjectAtRandom(enemyTiles, enemyCount, enemyCount);
+        SpawnEnemies(level);
 
         //Instantiate the exit tile in the upper right hand corner of our game board
         Instantiate(exit, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);
+    }
+
+    /// <summary>
+    /// Spawns enemies based on the level number
+    /// </summary>
+    private void SpawnEnemies(int level)
+    {
+        //Determine number of enemies based on current level number, based on a logarithmic progression
+        int maxEnemyPower = (int)Mathf.Log(level, 2f);
+        Debug.Log("Max Enemy Power: " + maxEnemyPower);
+
+        while (maxEnemyPower > 0)
+        {
+            Enemy newEnemy = enemyFactory.CreateEnemy(maxEnemyPower);
+            newEnemy.gameObject.transform.position = RandomPosition();
+            maxEnemyPower -= newEnemy.PowerLevel;
+        }
     }
 }
