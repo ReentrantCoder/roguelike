@@ -130,14 +130,21 @@ public class GameManager : MonoBehaviour
     //GameOver is called when the player reaches 0 food points
     public void GameOver()
     {
+		Debug.Log ("Game Over Entered");
+
         //Set levelText to display number of levels passed and game over message
         levelText.text = "After " + level + " days, you starved.";
 
         //Enable black background image gameObject.
         levelImage.SetActive(true);
 
+		//Save Score
+		ScoreSaver.Write ("Xernious", 99);
+
         //Disable this GameManager.
         enabled = false;
+		gameObject.SetActive (false);
+
     }
 
     //Coroutine to move enemies in sequence.
