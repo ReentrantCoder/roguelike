@@ -1,0 +1,1012 @@
+fileFormatVersion: 2
+guid: a6134c9d88fcb4b43895ab0b3b68c917
+timeCreated: 1449271414
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: flying_0
+    21300002: flying_1
+    21300004: flying_2
+    21300006: flying_3
+    21300008: flying_4
+    21300010: flying_5
+    21300012: flying_6
+    21300014: flying_7
+    21300016: flying_8
+    21300018: flying_9
+    21300020: flying_10
+    21300022: flying_11
+    21300024: flying_12
+    21300026: flying_13
+    21300028: flying_14
+    21300030: flying_15
+    21300032: flying_16
+    21300034: flying_17
+    21300036: flying_18
+    21300038: flying_19
+    21300040: flying_20
+    21300042: flying_21
+    21300044: flying_22
+    21300046: flying_23
+    21300048: flying_24
+    21300050: flying_25
+    21300052: flying_26
+    21300054: flying_27
+    21300056: flying_28
+    21300058: flying_29
+    21300060: flying_30
+    21300062: flying_31
+    21300064: flying_32
+    21300066: flying_33
+    21300068: flying_34
+    21300070: flying_35
+    21300072: flying_36
+    21300074: flying_37
+    21300076: flying_38
+    21300078: flying_39
+    21300080: flying_40
+    21300082: flying_41
+    21300084: flying_42
+    21300086: flying_43
+    21300088: flying_44
+    21300090: flying_45
+    21300092: flying_46
+    21300094: flying_47
+    21300096: flying_48
+    21300098: flying_49
+    21300100: flying_50
+    21300102: flying_51
+    21300104: flying_52
+    21300106: flying_53
+    21300108: flying_54
+    21300110: flying_55
+    21300112: flying_56
+    21300114: flying_57
+    21300116: flying_58
+    21300118: flying_59
+    21300120: flying_60
+    21300122: flying_61
+    21300124: flying_62
+    21300126: flying_63
+    21300128: flying_64
+    21300130: flying_65
+    21300132: flying_66
+    21300134: flying_67
+    21300136: flying_68
+    21300138: flying_69
+    21300140: flying_70
+    21300142: flying_71
+    21300144: flying_72
+    21300146: flying_73
+    21300148: flying_74
+    21300150: flying_75
+    21300152: flying_76
+    21300154: flying_77
+    21300156: flying_78
+    21300158: flying_79
+    21300160: flying_80
+    21300162: flying_81
+    21300164: flying_82
+    21300166: flying_83
+    21300168: flying_84
+    21300170: flying_85
+    21300172: flying_86
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: flying_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 316
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 316
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 316
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 316
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 316
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 319
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 316
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 316
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 319
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 321
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_10
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 324
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_11
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 325
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_12
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 325
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_13
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 325
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 275
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 274
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 273
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_17
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 273
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 273
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_19
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 275
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_20
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 275
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_21
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 275
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_22
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 275
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_23
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 305
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_24
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 305
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_25
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 305
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_26
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 305
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_27
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 232
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_28
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 232
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_29
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 231
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_30
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 232
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_31
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 232
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_32
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 225
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_33
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 229
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 228
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_35
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 258
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_36
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 258
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_37
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 255
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_38
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 255
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_39
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 189
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_40
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 189
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 188
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 188
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 188
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_44
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 179
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_45
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 180
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_46
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 180
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_47
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 180
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_48
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 213
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_49
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 213
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_50
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 212
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_51
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 212
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_52
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 146
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_53
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 146
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_54
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 146
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_55
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 52
+        width: 75
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_56
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 146
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_57
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 170
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 170
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_59
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 169
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_60
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 168
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_61
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 118
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_62
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 117
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_63
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 117
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_64
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 117
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_65
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 116
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_66
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 116
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_67
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 116
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_68
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 20
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_69
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 83
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_70
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 83
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_71
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 83
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_72
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 83
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_73
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 83
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_74
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 83
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_75
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 83
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_76
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 83
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_77
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 52
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_78
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 52
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_79
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 52
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_80
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 52
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_81
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 52
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_82
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 52
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_83
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 21
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_84
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 21
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_85
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 21
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_86
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 21
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
