@@ -1,0 +1,3509 @@
+fileFormatVersion: 2
+guid: 748b4263914384114bb74652a9c09f46
+timeCreated: 1449255843
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: koopa_0
+    21300002: koopa_1
+    21300004: koopa_2
+    21300006: koopa_3
+    21300008: koopa_4
+    21300010: koopa_5
+    21300012: koopa_6
+    21300014: koopa_7
+    21300016: koopa_8
+    21300018: koopa_9
+    21300020: koopa_10
+    21300022: koopa_11
+    21300024: koopa_12
+    21300026: koopa_13
+    21300028: koopa_14
+    21300030: koopa_15
+    21300032: koopa_16
+    21300034: koopa_17
+    21300036: koopa_18
+    21300038: koopa_19
+    21300040: koopa_20
+    21300042: koopa_21
+    21300044: koopa_22
+    21300046: koopa_23
+    21300048: koopa_24
+    21300050: koopa_25
+    21300052: koopa_26
+    21300054: koopa_27
+    21300056: koopa_28
+    21300058: koopa_29
+    21300060: koopa_30
+    21300062: koopa_31
+    21300064: koopa_32
+    21300066: koopa_33
+    21300068: koopa_34
+    21300070: koopa_35
+    21300072: koopa_36
+    21300074: koopa_37
+    21300076: koopa_38
+    21300078: koopa_39
+    21300080: koopa_40
+    21300082: koopa_41
+    21300084: koopa_42
+    21300086: koopa_43
+    21300088: koopa_44
+    21300090: koopa_45
+    21300092: koopa_46
+    21300094: koopa_47
+    21300096: koopa_48
+    21300098: koopa_49
+    21300100: koopa_50
+    21300102: koopa_51
+    21300104: koopa_52
+    21300106: koopa_53
+    21300108: koopa_54
+    21300110: koopa_55
+    21300112: koopa_56
+    21300114: koopa_57
+    21300116: koopa_58
+    21300118: koopa_59
+    21300120: koopa_60
+    21300122: koopa_61
+    21300124: koopa_62
+    21300126: koopa_63
+    21300128: koopa_64
+    21300130: koopa_65
+    21300132: koopa_66
+    21300134: koopa_67
+    21300136: koopa_68
+    21300138: koopa_69
+    21300140: koopa_70
+    21300142: koopa_71
+    21300144: koopa_72
+    21300146: koopa_73
+    21300148: koopa_74
+    21300150: koopa_75
+    21300152: koopa_76
+    21300154: koopa_77
+    21300156: koopa_78
+    21300158: koopa_79
+    21300160: koopa_80
+    21300162: koopa_81
+    21300164: koopa_82
+    21300166: koopa_83
+    21300168: koopa_84
+    21300170: koopa_85
+    21300172: koopa_86
+    21300174: koopa_87
+    21300176: koopa_88
+    21300178: koopa_89
+    21300180: koopa_90
+    21300182: koopa_91
+    21300184: koopa_92
+    21300186: koopa_93
+    21300188: koopa_94
+    21300190: koopa_95
+    21300192: koopa_96
+    21300194: koopa_97
+    21300196: koopa_98
+    21300198: koopa_99
+    21300200: koopa_100
+    21300202: koopa_101
+    21300204: koopa_102
+    21300206: koopa_103
+    21300208: koopa_104
+    21300210: koopa_105
+    21300212: koopa_106
+    21300214: koopa_107
+    21300216: koopa_108
+    21300218: koopa_109
+    21300220: koopa_110
+    21300222: koopa_111
+    21300224: koopa_112
+    21300226: koopa_113
+    21300228: koopa_114
+    21300230: koopa_115
+    21300232: koopa_116
+    21300234: koopa_117
+    21300236: koopa_118
+    21300238: koopa_119
+    21300240: koopa_120
+    21300242: koopa_121
+    21300244: koopa_122
+    21300246: koopa_123
+    21300248: koopa_124
+    21300250: koopa_125
+    21300252: koopa_126
+    21300254: koopa_127
+    21300256: koopa_128
+    21300258: koopa_129
+    21300260: koopa_130
+    21300262: koopa_131
+    21300264: koopa_132
+    21300266: koopa_133
+    21300268: koopa_134
+    21300270: koopa_135
+    21300272: koopa_136
+    21300274: koopa_137
+    21300276: koopa_138
+    21300278: koopa_139
+    21300280: koopa_140
+    21300282: koopa_141
+    21300284: koopa_142
+    21300286: koopa_143
+    21300288: koopa_144
+    21300290: koopa_145
+    21300292: koopa_146
+    21300294: koopa_147
+    21300296: koopa_148
+    21300298: koopa_149
+    21300300: koopa_150
+    21300302: koopa_151
+    21300304: koopa_152
+    21300306: koopa_153
+    21300308: koopa_154
+    21300310: koopa_155
+    21300312: koopa_156
+    21300314: koopa_157
+    21300316: koopa_158
+    21300318: koopa_159
+    21300320: koopa_160
+    21300322: koopa_161
+    21300324: koopa_162
+    21300326: koopa_163
+    21300328: koopa_164
+    21300330: koopa_165
+    21300332: koopa_166
+    21300334: koopa_167
+    21300336: koopa_168
+    21300338: koopa_169
+    21300340: koopa_170
+    21300342: koopa_171
+    21300344: koopa_172
+    21300346: koopa_173
+    21300348: koopa_174
+    21300350: koopa_175
+    21300352: koopa_176
+    21300354: koopa_177
+    21300356: koopa_178
+    21300358: koopa_179
+    21300360: koopa_180
+    21300362: koopa_181
+    21300364: koopa_182
+    21300366: koopa_183
+    21300368: koopa_184
+    21300370: koopa_185
+    21300372: koopa_186
+    21300374: koopa_187
+    21300376: koopa_188
+    21300378: koopa_189
+    21300380: koopa_190
+    21300382: koopa_191
+    21300384: koopa_192
+    21300386: koopa_193
+    21300388: koopa_194
+    21300390: koopa_195
+    21300392: koopa_196
+    21300394: koopa_197
+    21300396: koopa_198
+    21300398: koopa_199
+    21300400: koopa_200
+    21300402: koopa_201
+    21300404: koopa_202
+    21300406: koopa_203
+    21300408: koopa_204
+    21300410: koopa_205
+    21300412: koopa_206
+    21300414: koopa_207
+    21300416: koopa_208
+    21300418: koopa_209
+    21300420: koopa_210
+    21300422: koopa_211
+    21300424: koopa_212
+    21300426: koopa_213
+    21300428: koopa_214
+    21300430: koopa_215
+    21300432: koopa_216
+    21300434: koopa_217
+    21300436: koopa_218
+    21300438: koopa_219
+    21300440: koopa_220
+    21300442: koopa_221
+    21300444: koopa_222
+    21300446: koopa_223
+    21300448: koopa_224
+    21300450: koopa_225
+    21300452: koopa_226
+    21300454: koopa_227
+    21300456: koopa_228
+    21300458: koopa_229
+    21300460: koopa_230
+    21300462: koopa_231
+    21300464: koopa_232
+    21300466: koopa_233
+    21300468: koopa_234
+    21300470: koopa_235
+    21300472: koopa_236
+    21300474: koopa_237
+    21300476: koopa_238
+    21300478: koopa_239
+    21300480: koopa_240
+    21300482: koopa_241
+    21300484: koopa_242
+    21300486: koopa_243
+    21300488: koopa_244
+    21300490: koopa_245
+    21300492: koopa_246
+    21300494: koopa_247
+    21300496: koopa_248
+    21300498: koopa_249
+    21300500: koopa_250
+    21300502: koopa_251
+    21300504: koopa_252
+    21300506: koopa_253
+    21300508: koopa_254
+    21300510: koopa_255
+    21300512: koopa_256
+    21300514: koopa_257
+    21300516: koopa_258
+    21300518: koopa_259
+    21300520: koopa_260
+    21300522: koopa_261
+    21300524: koopa_262
+    21300526: koopa_263
+    21300528: koopa_264
+    21300530: koopa_265
+    21300532: koopa_266
+    21300534: koopa_267
+    21300536: koopa_268
+    21300538: koopa_269
+    21300540: koopa_270
+    21300542: koopa_271
+    21300544: koopa_272
+    21300546: koopa_273
+    21300548: koopa_274
+    21300550: koopa_275
+    21300552: koopa_276
+    21300554: koopa_277
+    21300556: koopa_278
+    21300558: koopa_279
+    21300560: koopa_280
+    21300562: koopa_281
+    21300564: koopa_282
+    21300566: koopa_283
+    21300568: koopa_284
+    21300570: koopa_285
+    21300572: koopa_286
+    21300574: koopa_287
+    21300576: koopa_288
+    21300578: koopa_289
+    21300580: koopa_290
+    21300582: koopa_291
+    21300584: koopa_292
+    21300586: koopa_293
+    21300588: koopa_294
+    21300590: koopa_295
+    21300592: koopa_296
+    21300594: koopa_297
+    21300596: koopa_298
+    21300598: koopa_299
+    21300600: koopa_300
+    21300602: koopa_301
+    21300604: koopa_302
+    21300606: koopa_303
+    21300608: koopa_304
+    21300610: koopa_305
+    21300612: koopa_306
+    21300614: koopa_307
+    21300616: koopa_308
+    21300618: koopa_309
+    21300620: koopa_310
+    21300622: koopa_311
+    21300624: koopa_312
+    21300626: koopa_313
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: koopa_0
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1356
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1356
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1356
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_3
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1356
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1356
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_5
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1356
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_6
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1356
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_7
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1356
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1318
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1318
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_10
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1318
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_11
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1318
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_12
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1318
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_13
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1318
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_14
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1283
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_15
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1283
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_16
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1249
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1249
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_18
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1249
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_19
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1250
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_20
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1250
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_21
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1212
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_22
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1212
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_23
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1213
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_24
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1212
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_25
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1212
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_26
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1212
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_27
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1212
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_28
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1212
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_29
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1178
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_30
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1179
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_31
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1178
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_32
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1178
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_33
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1178
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_34
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1138
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_35
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1139
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_36
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1138
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_37
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1138
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_38
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1138
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_39
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1140
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_40
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1138
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_41
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1138
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_42
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1098
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_43
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1099
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_44
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1096
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_45
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1096
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_46
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1096
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_47
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1096
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_48
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1096
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_49
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1096
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_50
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1056
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_51
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1057
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_52
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1059
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_53
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1056
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_54
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1058
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_55
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1057
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_56
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1058
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_57
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1057
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_58
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1057
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_59
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1006
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_60
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1008
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_61
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1012
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_62
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1013
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_63
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1014
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_64
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1007
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_65
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1007
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_66
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1008
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_67
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 958
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_68
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 958
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_69
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 958
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_70
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 966
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_71
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 971
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_72
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 969
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 969
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_74
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 969
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_75
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 965
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_76
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 965
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_77
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 965
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_78
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 958
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_79
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 958
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_80
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 958
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_81
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 958
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_82
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 909
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_83
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 910
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_84
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 911
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_85
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 909
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_86
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 909
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_87
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 909
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_88
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 909
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_89
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 909
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_90
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 909
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_91
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 909
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_92
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 909
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_93
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 909
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_94
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 838
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_95
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 845
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_96
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 855
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_97
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 865
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_98
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 865
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_99
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 867
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_100
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 867
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_101
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 862
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_102
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 858
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_103
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 838
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_104
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 838
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_105
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 848
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_106
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 838
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_107
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 838
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_108
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 838
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_109
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 781
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_110
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 780
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_111
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 780
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_112
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 781
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_113
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 781
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_114
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 781
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_115
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 781
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_116
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 781
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_117
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 781
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_118
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 720
+        width: 89
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_119
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 721
+        width: 89
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_120
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 720
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_121
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 733
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_122
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 729
+        width: 82
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_123
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 741
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_124
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 719
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_125
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 675
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_126
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 675
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_127
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 675
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_128
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 675
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_129
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 675
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_130
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 675
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_131
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 675
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_132
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 675
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_133
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 675
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_134
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 675
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_135
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 675
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_136
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 675
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_137
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 675
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_138
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 675
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_139
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 675
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_140
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 675
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_141
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 675
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_142
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 675
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_143
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 624
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_144
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 624
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_145
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 624
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_146
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 624
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_147
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 628
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_148
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 634
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_149
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 628
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_150
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 627
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_151
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 624
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_152
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 624
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_153
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 624
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_154
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 624
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_155
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 624
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_156
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 578
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_157
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 583
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_158
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 583
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_159
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 591
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_160
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 593
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_161
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 588
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_162
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 583
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_163
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 587
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_164
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 583
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_165
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 583
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_166
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 583
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_167
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 527
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_168
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 527
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_169
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 527
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_170
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 527
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_171
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 527
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_172
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 525
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_173
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 528
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_174
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 529
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_175
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 530
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_176
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 528
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_177
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 526
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_178
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 480
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_179
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 480
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_180
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 480
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_181
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_182
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 480
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_183
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 480
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_184
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 480
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_185
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 480
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_186
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 418
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_187
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 426
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_188
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 426
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_189
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 424
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_190
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 425
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_191
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 426
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_192
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 427
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_193
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 427
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_194
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 427
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_195
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 428
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_196
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 425
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_197
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 425
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_198
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 426
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_199
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 380
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_200
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 380
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_201
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 380
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_202
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 381
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_203
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 380
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_204
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 381
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_205
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 381
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_206
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 382
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_207
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 381
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_208
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 382
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_209
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 382
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_210
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 382
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_211
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 382
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_212
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 333
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_213
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 333
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_214
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 333
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_215
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 334
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_216
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 332
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_217
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 331
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_218
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 332
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_219
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 332
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_220
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 332
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_221
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 333
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_222
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 333
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_223
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 333
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_224
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 333
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_225
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 333
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_226
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 334
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_227
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 335
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_228
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 290
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_229
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 290
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_230
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 290
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_231
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 290
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_232
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 289
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_233
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 290
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_234
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 285
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_235
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 287
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_236
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 286
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_237
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 287
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_238
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 288
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_239
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 288
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_240
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 288
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_241
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 292
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_242
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 238
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_243
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 237
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_244
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 237
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_245
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 238
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_246
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 238
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_247
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 238
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_248
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 239
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_249
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 242
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_250
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 243
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_251
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 242
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_252
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 242
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_253
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 191
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_254
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 192
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_255
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 192
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_256
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 192
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_257
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 191
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_258
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 192
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_259
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 165
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_260
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 165
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_261
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 165
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_262
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_263
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 165
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_264
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 165
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_265
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 140
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_266
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 140
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_267
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 139
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_268
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 138
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_269
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 138
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_270
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 138
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_271
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 138
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_272
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 138
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_273
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 156
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_274
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 153
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_275
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 142
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_276
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 142
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_277
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 142
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_278
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 142
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_279
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 142
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_280
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 142
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_281
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 117
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_282
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 117
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_283
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 117
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_284
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 117
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_285
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 117
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_286
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 117
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_287
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 91
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_288
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 91
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_289
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 91
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_290
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 91
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_291
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 91
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_292
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 92
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_293
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 90
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_294
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_295
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 96
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_296
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 96
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_297
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 96
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_298
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 96
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_299
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 96
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_300
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 72
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_301
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 73
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_302
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 73
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_303
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_304
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_305
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 71
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_306
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 51
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_307
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 51
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_308
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 51
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_309
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 51
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_310
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_311
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_312
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 16
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: koopa_313
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 17
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
