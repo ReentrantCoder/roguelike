@@ -30,6 +30,7 @@ public class BoardManager : MonoBehaviour
     public GameObject[] floorTiles;									//Array of floor prefabs.
     public GameObject[] wallTiles;									//Array of wall prefabs.
     public GameObject[] foodTiles;									//Array of food prefabs.
+    public GameObject[] gearTiles;
     public GameObject[] outerWallTiles;								//Array of outer tile prefabs.
 
     private Transform boardHolder;									//A variable to store a reference to the transform of our Board object.
@@ -155,10 +156,24 @@ public class BoardManager : MonoBehaviour
         //Instantiate a random number of food tiles based on minimum and maximum, at randomized positions.
         LayoutObjectAtRandom(foodTiles, foodCount.minimum, foodCount.maximum);
 
+        SpawnGear(level);
+
         SpawnEnemies(level);
 
         //Instantiate the exit tile in the upper right hand corner of our game board
         Instantiate(exit, new Vector3(columns - 1, rows - 1, 0f), Quaternion.identity);
+    }
+
+    private void SpawnGear(int level)
+    {
+        if ((level % 3) == 2)
+        {
+            int gearIndex = (int)(level / 3);
+            if (gearIndex < gearTiles.Length)
+            {
+                GameObject.Instantiate(gearTiles[gearIndex], RandomPosition(), Quaternion.identity);
+            }
+        }
     }
 
     /// <summary>
