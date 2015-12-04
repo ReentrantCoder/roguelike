@@ -16,8 +16,8 @@ public class ScoreSaver : MonoBehaviour
 {
 	static string path = @"save.txt";
     public static int score;
-    Text[] nameArray;
-    Text[] levelArray;
+    public Text[] nameArray;
+    public Text[] levelArray;
 
     public static void Write(string name, int level)
 	{
