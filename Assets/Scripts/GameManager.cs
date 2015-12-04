@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     private Text levelText;									//Text to display current level number.
     private GameObject levelImage;							//Image to block out level as levels are being set up, background for levelText.
     private BoardManager boardScript;						//Store a reference to our BoardManager which will set up the level.
-    private int level = 1;									//Current level number, expressed in game as "Day 1".
+    private int level = 0;									//Current level number, expressed in game as "Day 1".
     private List<Enemy> enemies;							//List of all Enemy units, used to issue them move commands.
     private bool enemiesMoving;								//Boolean to check if enemies are moving.
     private bool doingSetup = true;							//Boolean to check if we're setting up board, prevent Player from moving during setup.
@@ -35,9 +35,11 @@ public class GameManager : MonoBehaviour
 
         //If instance already exists and it's not this:
         else if (instance != this)
-
+        {
+            Debug.Log("Extra GameManager detected!");
             //Then destroy this. This enforces our singleton pattern, meaning there can only ever be one instance of a GameManager.
             Destroy(gameObject);
+        }
 
         //Sets this to not be destroyed when reloading scene
         DontDestroyOnLoad(gameObject);
@@ -54,7 +56,7 @@ public class GameManager : MonoBehaviour
         PlayerStats.DamageReduction = 0;
 
         //Call the InitGame function to initialize the first level 
-        InitGame();
+        //InitGame();
     }
 
     /// <summary>
@@ -74,6 +76,8 @@ public class GameManager : MonoBehaviour
     /// </summary>
     void InitGame()
     {
+        Debug.Log("GameManager InitGame called, level = " + level);
+
         //While doingSetup is true the player can't move, prevent player from moving while title card is up.
         doingSetup = true;
 
