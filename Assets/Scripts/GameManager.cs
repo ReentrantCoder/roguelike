@@ -57,6 +57,7 @@ public class GameManager : MonoBehaviour
 
         //Call the InitGame function to initialize the first level 
         //InitGame();
+        //InitGame commented out due to issues with double incrementing days
     }
 
     /// <summary>
