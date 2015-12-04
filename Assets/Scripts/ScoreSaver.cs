@@ -2,18 +2,24 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 
-class Score
+public class Score : MonoBehaviour
 {
 	public string name { get; set; }
 	public int level { get; set; }
 }
 
-class ScoreSaver
+public class ScoreSaver : MonoBehaviour
 {
 	static string path = @"save.txt";
+    public static int score;
+    Text[] nameArray;
+    Text[] levelArray;
 
-	public static void Write(string name, int level)
+    public static void Write(string name, int level)
 	{
 		if (!File.Exists (path)) {
 			using (StreamWriter sw = File.CreateText(path)) {
@@ -67,4 +73,18 @@ class ScoreSaver
 		}
 
 	}
+
+    void Awake()
+    {
+        List<Score> thisScarray = Read();
+        for (int i = 0; i < 5; i++)
+        {
+            nameArray[i] = GetComponent<Text>();
+            nameArray[i].text = thisScarray[i].name;
+            
+            levelArray[i] = GetComponent<Text>();
+            levelArray[i].text = thisScarray[i].level.ToString();
+
+        }
+    }
 }

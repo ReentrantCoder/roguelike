@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class SoundManager : MonoBehaviour
@@ -8,7 +9,6 @@ public class SoundManager : MonoBehaviour
     public static SoundManager instance = null;		//Allows other scripts to call functions from SoundManager.				
     public float lowPitchRange = .95f;				//The lowest a sound effect will be randomly pitched.
     public float highPitchRange = 1.05f;			//The highest a sound effect will be randomly pitched.
-
 
     void Awake()
     {
