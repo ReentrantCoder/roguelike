@@ -12,7 +12,17 @@ public class Player : MovingObject, IAttackable
     private Animator animator;					//Used to store a reference to the Player's animator component.
     private Vector2 touchOrigin = -Vector2.one;	//Used to store location of screen touch origin for mobile controls.
     private Stats playerStats;
-    
+
+    private bool allowInput = true;
+    public bool AllowInput
+    {
+        get { return allowInput; }
+        set
+        {
+            allowInput = value;
+            gameObject.GetComponent<Animator>().enabled = value;
+        }
+    }
 
     //Start overrides the Start function of MovingObject
     protected override void Start()
@@ -42,7 +52,7 @@ public class Player : MovingObject, IAttackable
     private void Update()
     {
         //If it's not the player's turn, exit the function.
-        if (!GameManager.instance.playersTurn) return;
+        if (!GameManager.instance.playersTurn || !AllowInput) return;
 
         int horizontal = 0;  	//Used to store the horizontal move direction.
         int vertical = 0;		//Used to store the vertical move direction.
