@@ -7,8 +7,6 @@ public class startMenuCanvas : MonoBehaviour {
 
     void Awake()
     {
-        //menuCanvas = GameObject.Find("StartMenuCanvas");
-        //scoreCanvas = GameObject.Find("ScoreCanvas");
         menuCanvas.SetActive(true);
         scoreCanvas.SetActive(false);
     }
