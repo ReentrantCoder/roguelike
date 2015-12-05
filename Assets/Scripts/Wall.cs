@@ -19,7 +19,7 @@ public class Wall : MonoBehaviour, IAttackable
     }
 
 
-    public void Attack(int damage)
+    public int Attack(int damage)
     {
         //Call the RandomizeSfx function of SoundManager to play one of two chop sounds.
         SoundManager.instance.RandomizeSfx(chopSound1, chopSound2);
@@ -28,11 +28,20 @@ public class Wall : MonoBehaviour, IAttackable
         spriteRenderer.sprite = dmgSprite;
 
         //Subtract loss from hit point total.
-        stats.HP -= (damage - stats.DamageReduction);
+        damage -= stats.DamageReduction;
+        damage = Mathf.Max(0, damage);
+        stats.HP -= damage;
 
         //If hit points are less than or equal to zero:
         if (stats.HP <= 0)
             //Disable the gameObject.
             gameObject.SetActive(false);
+
+        return damage;
+    }
+
+    public string GetName()
+    {
+        return "Wall";
     }
 }

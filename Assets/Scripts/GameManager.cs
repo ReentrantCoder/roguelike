@@ -9,18 +9,38 @@ public class GameManager : MonoBehaviour
     public float levelStartDelay = 2f;						//Time to wait before starting level, in seconds.
     public float turnDelay = 0.1f;							//Delay between each Player turn.
     public static GameManager instance = null;				//Static instance of GameManager which allows it to be accessed by any other script.
-    public Stats PlayerStats;
+    
+    private Stats playerStats = new Stats();
+    public Stats PlayerStats
+    {
+        get { return playerStats; }
+        set
+        {
+            playerStats = value;
+            Debug.Log("Updated player stats in game manager");
+            UpdateStatsUI();
+        }
+    }
 
     [HideInInspector]
     public bool playersTurn = true;		//Boolean to check if it's players turn, hidden in inspector but public.
 
     private Text levelText;									//Text to display current level number.
     private GameObject levelImage;							//Image to block out level as levels are being set up, background for levelText.
+    private GameObject statsPanel;
     private BoardManager boardScript;						//Store a reference to our BoardManager which will set up the level.
     private int level = 0;									//Current level number, expressed in game as "Day 1".
     private List<Enemy> enemies;							//List of all Enemy units, used to issue them move commands.
     private bool enemiesMoving;								//Boolean to check if enemies are moving.
     private bool doingSetup = true;							//Boolean to check if we're setting up board, prevent Player from moving during setup.
+
+    private Text damageText;
+    private Text armorText;
+    private Text foodText;
+    private Image weaponImage;
+    private Image armorImage;
+    public Sprite weapon;
+    public Sprite armor;
 
     /// <summary>
     /// Awake is always called before any Start functions. Called by Unity
@@ -51,9 +71,9 @@ public class GameManager : MonoBehaviour
         boardScript = GetComponent<BoardManager>();
 
         //set up initial player stats
-        PlayerStats.HP = 100;
-        PlayerStats.Damage = 5;
-        PlayerStats.DamageReduction = 0;
+        playerStats.HP = 100;
+        playerStats.Damage = 5;
+        playerStats.DamageReduction = 0;
 
         //Call the InitGame function to initialize the first level 
         //InitGame();
@@ -84,6 +104,41 @@ public class GameManager : MonoBehaviour
 
         //Get a reference to our image LevelImage by finding it by name.
         levelImage = GameObject.Find("LevelImage");
+        statsPanel = GameObject.Find("StatsPanel");
+
+        foreach (Text t in GameObject.FindObjectsOfType<Text>())
+        {
+            switch (t.name)
+            {
+                case "DamageText":
+                    damageText = t;
+                    break;
+                case "ArmorText":
+                    armorText = t;
+                    break;
+                case "FoodText":
+                    foodText = t;
+                    break;
+                default:
+                    break;
+            }
+        }
+        foreach (Image i in GameObject.FindObjectsOfType<Image>())
+        {
+            switch (i.name)
+            {
+                case "WeaponImage":
+                    weaponImage = i;
+                    break;
+                case "ArmorImage":
+                    armorImage = i;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        UpdateStatsUI();
 
         //Get a reference to our text LevelText's text component by finding it by name and calling GetComponent.
         levelText = GameObject.Find("LevelText").GetComponent<Text>();
@@ -93,6 +148,7 @@ public class GameManager : MonoBehaviour
 
         //Set levelImage to active blocking player's view of the game board during setup.
         levelImage.SetActive(true);
+        statsPanel.SetActive(false);
 
         //Call the HideLevelImage function with a delay in seconds of levelStartDelay.
         Invoke("HideLevelImage", levelStartDelay);
@@ -105,6 +161,15 @@ public class GameManager : MonoBehaviour
 
     }
 
+    void UpdateStatsUI()
+    {
+        damageText.text = "Damage: " + playerStats.Damage;
+        armorText.text = "Armor: " + playerStats.DamageReduction;
+        foodText.text = "Food: " + playerStats.HP;
+
+        weaponImage.sprite = weapon;
+        armorImage.sprite = armor;
+    }
 
     /// <summary>
     /// Hides black image used between levels
@@ -113,6 +178,7 @@ public class GameManager : MonoBehaviour
     {
         //Disable the levelImage gameObject.
         levelImage.SetActive(false);
+        statsPanel.SetActive(true);
 
         //Set doingSetup to false allowing player to move again.
         doingSetup = false;

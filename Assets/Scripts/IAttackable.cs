@@ -1,4 +1,5 @@
 ﻿interface IAttackable
 {
-    void Attack(int damage);
+    int Attack(int damage);
+    string GetName();
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class Score : MonoBehaviour
+public class Score
 {
 	public string name { get; set; }
 	public int level { get; set; }
@@ -16,8 +16,8 @@ public class ScoreSaver : MonoBehaviour
 {
 	static string path = @"save.txt";
     public static int score;
-    Text[] nameArray;
-    Text[] levelArray;
+    public Text[] nameArray;
+    public Text[] levelArray;
 
     public static void Write(string name, int level)
 	{

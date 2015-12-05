@@ -80,15 +80,18 @@ public abstract class Enemy : MovingObject, IAttackable, IComparable
         SoundManager.instance.RandomizeSfx(AttackSounds);
     }
 
-    public void Attack(int damage)
+    public int Attack(int damage)
     {
-        EnemyStats.HP -= Mathf.Max(0, damage - EnemyStats.DamageReduction);
+        int tmpDamage = Mathf.Max(0, damage - EnemyStats.DamageReduction);
+        EnemyStats.HP -= tmpDamage;
 
         //if Turns < 0, kill this enemy
         if (EnemyStats.HP <= 0)
         {
             gameObject.SetActive(false);
         }
+
+        return tmpDamage;
     }
 
     /// <summary>
@@ -98,5 +101,10 @@ public abstract class Enemy : MovingObject, IAttackable, IComparable
     public int CompareTo(object other)
     {
         return PowerLevel - ((Enemy)other).PowerLevel;
+    }
+
+    public string GetName()
+    {
+        return name.Replace("(Clone)", "");
     }
 }
