@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
 
     private Text levelText;									//Text to display current level number.
     private GameObject levelImage;							//Image to block out level as levels are being set up, background for levelText.
+    private GameObject NameInput;
     private GameObject statsPanel;
     private BoardManager boardScript;						//Store a reference to our BoardManager which will set up the level.
     private int level = 0;									//Current level number, expressed in game as "Day 1".
@@ -105,6 +106,8 @@ public class GameManager : MonoBehaviour
         //Get a reference to our image LevelImage by finding it by name.
         levelImage = GameObject.Find("LevelImage");
         statsPanel = GameObject.Find("StatsPanel");
+        NameInput = GameObject.Find("NameInput");
+
 
         foreach (Text t in GameObject.FindObjectsOfType<Text>())
         {
@@ -149,7 +152,8 @@ public class GameManager : MonoBehaviour
         //Set levelImage to active blocking player's view of the game board during setup.
         levelImage.SetActive(true);
         statsPanel.SetActive(false);
-
+        NameInput.SetActive(false);
+        
         //Call the HideLevelImage function with a delay in seconds of levelStartDelay.
         Invoke("HideLevelImage", levelStartDelay);
 
@@ -223,12 +227,19 @@ public class GameManager : MonoBehaviour
         //Enable black background image gameObject.
         levelImage.SetActive(true);
 
-		//Save Score
-		ScoreSaver.Write ("Xernious", "99");
+        //Get Score from the user
+        NameInput.SetActive(true);
+
+        //Save Score
+        InputField myName = gameObject.GetComponent<InputField>();
+        ScoreSaver.Write (myName.text, level.ToString());
 
         //Disable this GameManager.
         enabled = false;
 		gameObject.SetActive (false);
+
+        //Return to Startmenu
+        //Application.LoadLevel("startMenu");
 
     }
 
@@ -269,4 +280,5 @@ public class GameManager : MonoBehaviour
         //Enemies are done moving, set enemiesMoving to false.
         enemiesMoving = false;
     }
+
 }
