@@ -6,7 +6,7 @@ using UnityEngine.UI;	//Allows us to use UI.
 public class Player : MovingObject, IAttackable
 {
     public float restartLevelDelay = 1f;		//Delay time in seconds to restart level.
-    public Text foodText;						//UI Text to display current player food total.
+    public Text messageText;						//UI Text to display current player food total.
     public AudioClip gameOverSound;				//Audio clip to play when player dies.
 
     private Animator animator;					//Used to store a reference to the Player's animator component.
@@ -34,7 +34,7 @@ public class Player : MovingObject, IAttackable
         playerStats = GameManager.instance.PlayerStats;
 
         //Set the foodText to reflect the current player food total.
-        foodText.text = "Food: " + playerStats.HP;
+        //messageText.text = "Food: " + playerStats.HP;
 
         //Call the Start function of the MovingObject base class.
         base.Start();
@@ -130,7 +130,7 @@ public class Player : MovingObject, IAttackable
         playerStats.HP--;
 
         //Update food text display to reflect current score.
-        foodText.text = "Food: " + playerStats.HP;
+        messageText.text = "Food -1";
 
         //Call the AttemptMove method of the base class, passing in the component T (in this case Wall) and x and y direction to move.
         base.AttemptMove<T>(xDir, yDir);
@@ -150,6 +150,7 @@ public class Player : MovingObject, IAttackable
 
         //Set the playersTurn boolean of GameManager to false now that players turn is over.
         GameManager.instance.playersTurn = false;
+        GameManager.instance.PlayerStats = playerStats;
     }
 
 
@@ -162,10 +163,13 @@ public class Player : MovingObject, IAttackable
         IAttackable hitObject = component as IAttackable;
 
         //Call the Attack function of the Object we are hitting.
-        hitObject.Attack(playerStats.Damage);
+        int damage = hitObject.Attack(playerStats.Damage);
 
         //Set the attack trigger of the player's animation controller in order to play the player's attack animation.
         animator.SetTrigger("playerChop");
+
+        string otherName = hitObject.GetName();
+        messageText.text += System.Environment.NewLine + "Dealt " + damage + " to a " + otherName + "!";
     }
 
 
@@ -185,36 +189,43 @@ public class Player : MovingObject, IAttackable
         //Check if the tag of the trigger collided with is Food.
         else if (other.tag == "Resource")
         {
-            Debug.Log("hit a resource " + other.name);
-            Stats item = other.GetComponent<Resource>().Collect();
+            Resource r = other.GetComponent<Resource>();
+            Stats item = r.Collect();
+
+            messageText.text += System.Environment.NewLine;
 
             //Add Food value to the players current food total.
-            playerStats.HP += item.HP;
+            if (item.HP > 0)
+            {
+                playerStats.HP += item.HP;
 
-            //Update foodText to represent current total and notify player that they gained points
-            foodText.text = "+" + item.HP + " Food: " + playerStats.HP;
+                //Update foodText to represent current total and notify player that they gained points
+                messageText.text += "Food +" + item.HP;
+            }
 
             //Update Damage value
             if (playerStats.Damage < item.Damage)
             {
+                messageText.text += "Damage +" + (item.Damage - playerStats.Damage);
                 playerStats.Damage = item.Damage;
+                GameManager.instance.weapon = r.Image;
+                
             }
 
             //Update DamageReduction value
             if (playerStats.DamageReduction < item.DamageReduction)
             {
+                messageText.text += "Armor +" + (item.DamageReduction - playerStats.DamageReduction);
                 playerStats.DamageReduction = item.DamageReduction;
+                GameManager.instance.armor = r.Image;
             }
-        }
-        else if (other.tag == "Enemy")
-        {
-            //attack the enemy!
-            other.GetComponent<Enemy>().Attack(playerStats.Damage);
         }
         else
         {
             Debug.Log("Hit something else: " + other.name);
         }
+
+        GameManager.instance.PlayerStats = playerStats;
     }
 
 
@@ -228,7 +239,7 @@ public class Player : MovingObject, IAttackable
 
     //LoseFood is called when an enemy attacks the player.
     //It takes a parameter loss which specifies how many points to lose.
-    public void Attack(int damage)
+    public int Attack(int damage)
     {
         //Set the trigger for the player animator to transition to the playerHit animation.
         animator.SetTrigger("playerHit");
@@ -240,10 +251,12 @@ public class Player : MovingObject, IAttackable
         playerStats.HP -= damage;
 
         //Update the food display with the new total.
-        foodText.text = "-" + damage + " Food: " + playerStats.HP;
+        messageText.text += System.Environment.NewLine + "Took " + damage + " damage!";
 
         //Check to see if game has ended.
         CheckIfGameOver();
+
+        return damage;
     }
 
 
@@ -262,5 +275,10 @@ public class Player : MovingObject, IAttackable
             //Call the GameOver function of GameManager.
             GameManager.instance.GameOver();
         }
+    }
+
+    public string GetName()
+    {
+        return "Player";
     }
 }
