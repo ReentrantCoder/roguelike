@@ -224,7 +224,7 @@ public class GameManager : MonoBehaviour
         levelImage.SetActive(true);
 
 		//Save Score
-		ScoreSaver.Write ("Xernious", 99);
+		ScoreSaver.Write ("Xernious", "99");
 
         //Disable this GameManager.
         enabled = false;

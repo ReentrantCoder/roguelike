@@ -9,7 +9,7 @@ using System.Collections;
 public class Score
 {
 	public string name { get; set; }
-	public int level { get; set; }
+	public string level { get; set; }
 }
 
 public class ScoreSaver : MonoBehaviour
@@ -19,7 +19,7 @@ public class ScoreSaver : MonoBehaviour
     public Text[] nameArray;
     public Text[] levelArray;
 
-    public static void Write(string name, int level)
+    public static void Write(string name, string level)
 	{
 		if (!File.Exists (path)) {
 			using (StreamWriter sw = File.CreateText(path)) {
@@ -58,7 +58,7 @@ public class ScoreSaver : MonoBehaviour
 			while ((s = sr.ReadLine()) != null) 
 			{
 				string[] items = s.Split(',');
-				Scarray.Add (new Score(){name = items[0], level = Convert.ToInt32 (items [1])});
+				Scarray.Add (new Score(){name = items[0], level = items [1]});
 			}
 		}
 		return Scarray;
@@ -79,11 +79,13 @@ public class ScoreSaver : MonoBehaviour
         List<Score> thisScarray = Read();
         for (int i = 0; i < 5; i++)
         {
-            nameArray[i] = GetComponent<Text>();
-            nameArray[i].text = thisScarray[i].name;
             
+            nameArray[i].text = thisScarray[i].name;
+            nameArray[i] = GetComponent<Text>();
+
+            
+            levelArray[i].text = thisScarray[i].level;
             levelArray[i] = GetComponent<Text>();
-            levelArray[i].text = thisScarray[i].level.ToString();
 
         }
     }
