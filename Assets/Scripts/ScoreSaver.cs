@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class Score : MonoBehaviour
+public class Score
 {
 	public string name { get; set; }
 	public int level { get; set; }
