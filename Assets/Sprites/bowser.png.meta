@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: d319b5dbda3d642129700c2baa9bfb09
+timeCreated: 1449291940
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bowser_0
+    21300002: bowser_1
+    21300004: bowser_2
+    21300006: bowser_3
+    21300008: bowser_4
+    21300010: bowser_5
+    21300012: bowser_6
+    21300014: bowser_7
+    21300016: bowser_8
+    21300018: bowser_9
+    21300020: bowser_10
+    21300022: bowser_11
+    21300024: bowser_12
+    21300026: bowser_13
+    21300028: bowser_14
+    21300030: bowser_15
+    21300032: bowser_16
+    21300034: bowser_17
+    21300036: bowser_18
+    21300038: bowser_19
+    21300040: bowser_20
+    21300042: bowser_21
+    21300044: bowser_22
+    21300046: bowser_23
+    21300048: bowser_24
+    21300050: bowser_25
+    21300052: bowser_26
+    21300054: bowser_27
+    21300056: bowser_28
+    21300058: bowser_29
+    21300060: bowser_30
+    21300062: bowser_31
+    21300064: bowser_32
+    21300066: bowser_33
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 44
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bowser_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 818
+        width: 253
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 818
+        width: 117
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 818
+        width: 137
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_3
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 819
+        width: 139
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_4
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 674
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_5
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 679
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 580
+        width: 86
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 583
+        width: 102
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 587
+        width: 92
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 590
+        width: 93
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_10
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 590
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_11
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 589
+        width: 87
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_12
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 484
+        width: 114
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_13
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 484
+        width: 92
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 487
+        width: 88
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_15
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 486
+        width: 75
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_16
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 490
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_17
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 499
+        width: 93
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_18
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 394
+        width: 113
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_19
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 313
+        width: 96
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_20
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 400
+        width: 82
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_21
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 309
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_22
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 319
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_23
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 231
+        width: 92
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_24
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 231
+        width: 92
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_25
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 234
+        width: 95
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_26
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 231
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 333
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_28
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 149
+        width: 90
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_29
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 65
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_30
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 64
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_31
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 64
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_32
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 63
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bowser_33
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 65
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
