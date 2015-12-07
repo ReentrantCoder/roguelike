@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
         boardScript = GetComponent<BoardManager>();
 
         //set up initial player stats
-        playerStats.HP = 100;
+        playerStats.HP = 5;
         playerStats.Damage = 5;
         playerStats.DamageReduction = 0;
 
@@ -227,19 +227,8 @@ public class GameManager : MonoBehaviour
         //Enable black background image gameObject.
         levelImage.SetActive(true);
 
-        //Get Score from the user
+        //Activate UI score getter
         NameInput.SetActive(true);
-
-        //Save Score
-        InputField myName = gameObject.GetComponent<InputField>();
-        ScoreSaver.Write (myName.text, level.ToString());
-
-        //Disable this GameManager.
-        enabled = false;
-		gameObject.SetActive (false);
-
-        //Return to Startmenu
-        //Application.LoadLevel("startMenu");
 
     }
 
@@ -279,6 +268,21 @@ public class GameManager : MonoBehaviour
 
         //Enemies are done moving, set enemiesMoving to false.
         enemiesMoving = false;
+    }
+
+    public void SaveName()
+    {
+        //Save Score
+        //Debug.Log("Entered Save Name");
+        InputField myName = instance.NameInput.GetComponent<InputField>();
+        ScoreSaver.Write(myName.text, instance.level.ToString());
+
+        //Disable this GameManager.
+        instance.enabled = false;
+        instance.gameObject.SetActive(false);
+
+        //Return to Startmenu
+        Application.LoadLevel("startMenu");
     }
 
 }
