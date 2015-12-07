@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
         boardScript = GetComponent<BoardManager>();
 
         //set up initial player stats
-        playerStats.HP = 5;
+        playerStats.HP = 100;
         playerStats.Damage = 5;
         playerStats.DamageReduction = 0;
 
