@@ -19,18 +19,19 @@ public class ScoreSaver : MonoBehaviour
     public Text[] nameArray;
     public Text[] levelArray;
 
-    public static void Write(string name, string level)
+    public static void Write(string name, string levelString)
 	{
-		if (!File.Exists (path)) {
+        int level =  Int32.Parse(levelString);
+        if (!File.Exists (path)) {
 			using (StreamWriter sw = File.CreateText(path)) {
 				sw.WriteLine ("{0}, {1}", name, level);
 			}
 		} else {
 			List<Score> readscores = Read ();
 			lock (readscores) {
-				readscores.Add (new Score () { name = name, level = level });
+				readscores.Add (new Score () { name = name, level = levelString });
 				var result = from score in readscores
-					orderby score.level descending
+					orderby Int32.Parse(score.level) descending
 						select score;
 
 				//Adds only the top 5 scores
