@@ -68,40 +68,49 @@ public class ScoreSaver : MonoBehaviour
 
 	public void Clear()
 	{
+        //Debug.Log("Clear called");
 		// Clear if file exists
 		if (File.Exists(path)) 
 		{
 			System.IO.File.WriteAllText(path,string.Empty);
         }
-        List<Score> thisScarray = Read();
-        for (int i = 0; i < 5; i++)
-        {
+        //List<Score> thisScarray = Read();
+        //for (int i = 0; i < 5; i++)
+        //{
 
-            nameArray[i].text = "";
-            nameArray[i] = GetComponent<Text>();
+        //    nameArray[i].text = "";
+        //    nameArray[i] = GetComponent<Text>();
 
-            levelArray[i].text = "";
-            levelArray[i] = GetComponent<Text>();
-        }
-        scoreCanvas = GameObject.Find("ScoreCanvas");
-        scoreCanvas.SetActive(false);
-        scoreCanvas.SetActive(true);
+        //    levelArray[i].text = "";
+        //    levelArray[i] = GetComponent<Text>();
+        //}
+        //scoreCanvas = GameObject.Find("ScoreCanvas");
+        //scoreCanvas.SetActive(false);
+        //scoreCanvas.SetActive(true);
+
+        UpdateScores();
     }
 
     void Awake()
     {
-        List<Score> thisScarray = Read();
-        for (int i = 0; i < 5; i++)
-        {
-
-            nameArray[i].text = thisScarray[i].name;
-            nameArray[i] = GetComponent<Text>();
-
-            
-            levelArray[i].text = thisScarray[i].level;
-            levelArray[i] = GetComponent<Text>();
-
-        }
+        //Debug.Log("Awake called");
+        UpdateScores();
     }
 
+    void UpdateScores()
+    {
+        List<Score> thisScarray = Read();
+        //Debug.Log("count = " + thisScarray.Count);
+        for (int i = 0; i < 5; i++)
+        {
+            //Debug.Log("i = " + i);
+            nameArray[i].text = (i < thisScarray.Count) ? thisScarray[i].name : "";
+            //Debug.Log(nameArray[i].text);
+            //nameArray[i] = GetComponent<Text>(); 
+            
+            levelArray[i].text = (i < thisScarray.Count) ? thisScarray[i].level : "";
+            //levelArray[i] = GetComponent<Text>();
+        }
+
+    }
 }
