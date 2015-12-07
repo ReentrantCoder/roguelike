@@ -166,13 +166,10 @@ public class BoardManager : MonoBehaviour
 
     private void SpawnGear(int level)
     {
-        if ((level % 3) == 2)
+        int gearIndex = (int)(level - 2);
+        if ((gearIndex >=0) && (gearIndex < gearTiles.Length))
         {
-            int gearIndex = (int)(level / 3);
-            if (gearIndex < gearTiles.Length)
-            {
-                GameObject.Instantiate(gearTiles[gearIndex], RandomPosition(), Quaternion.identity);
-            }
+            GameObject.Instantiate(gearTiles[gearIndex], RandomPosition(), Quaternion.identity);
         }
     }
 
@@ -182,7 +179,8 @@ public class BoardManager : MonoBehaviour
     private void SpawnEnemies(int level)
     {
         //Determine number of enemies based on current level number, based on a logarithmic progression
-        int maxEnemyPower = (int)Mathf.Log(level, 2f);
+        //int maxEnemyPower = (int)Mathf.Log(level, 2f);
+        int maxEnemyPower = level - 1;
         Debug.Log("Max Enemy Power: " + maxEnemyPower);
 
         while (maxEnemyPower > 0)
