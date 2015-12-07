@@ -225,6 +225,7 @@ public class GameManager : MonoBehaviour
         levelText.text = "After " + level + " days, you starved.";
 
         //Enable black background image gameObject.
+        statsPanel.SetActive(false);
         levelImage.SetActive(true);
 
         //Activate UI score getter

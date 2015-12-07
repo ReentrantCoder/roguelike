@@ -18,6 +18,7 @@ public class ScoreSaver : MonoBehaviour
     public static int score;
     public Text[] nameArray;
     public Text[] levelArray;
+    private GameObject scoreCanvas;
 
     public static void Write(string name, string levelString)
 	{
@@ -65,22 +66,34 @@ public class ScoreSaver : MonoBehaviour
 		return Scarray;
 	}
 
-	public static void Clear()
+	public void Clear()
 	{
 		// Clear if file exists
 		if (File.Exists(path)) 
 		{
-			System.IO.File.WriteAllText(path,string.Empty);	
-		}
+			System.IO.File.WriteAllText(path,string.Empty);
+        }
+        List<Score> thisScarray = Read();
+        for (int i = 0; i < 5; i++)
+        {
 
-	}
+            nameArray[i].text = "";
+            nameArray[i] = GetComponent<Text>();
+
+            levelArray[i].text = "";
+            levelArray[i] = GetComponent<Text>();
+        }
+        scoreCanvas = GameObject.Find("ScoreCanvas");
+        scoreCanvas.SetActive(false);
+        scoreCanvas.SetActive(true);
+    }
 
     void Awake()
     {
         List<Score> thisScarray = Read();
         for (int i = 0; i < 5; i++)
         {
-            
+
             nameArray[i].text = thisScarray[i].name;
             nameArray[i] = GetComponent<Text>();
 
@@ -90,4 +103,5 @@ public class ScoreSaver : MonoBehaviour
 
         }
     }
+
 }
